@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4A68CFD979D413A619DF631BB121D98F /* Bugly */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9CC7AA793D9397C15E010F8242EE1046 /* Build configuration list for PBXAggregateTarget "Bugly" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Bugly;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A9F58BAD4146659D83B49C49B614D29 /* fishhook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C1F806223B3DC78891D1ADA2C30B52 /* fishhook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B8EE78336A4286BD5DA56D2E429AD4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		523051572A9FB6D243E71966AB626D6E /* Pods-ZYFOOMReportDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8372C2434C63D8ACB6EE6E1044EF14 /* Pods-ZYFOOMReportDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		870DDF3965EB30DB37DE2C350E15788C /* fishhook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B42E94ECB812B176DE2A1DD300E1877 /* fishhook-dummy.m */; };
+		B9AEBFEC62BD74FD06529C1EF5C6FEFD /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E308D44298915E1F0DBBA8F516461C /* fishhook.c */; };
+		BD0772315FC4EBE1720EB8EAE3821072 /* Pods-ZYFOOMReportDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 991B5C602D72BF67C13CA3EB965EAC08 /* Pods-ZYFOOMReportDemo-dummy.m */; };
+		DF18D70F995E250ADE946ABED218D067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EE3C95F14528751BD1188B253E0DB6E2 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B33111A00A41AEFD16EA313F39C8C47 /* fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505B0B2ADE03FFCC1C3368AE785F3C40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CAF5B0291DAB42086F0645150E1791;
+			remoteInfo = fishhook;
+		};
+		5BEFC08450B3167B8C62BB4F26CCD5BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A68CFD979D413A619DF631BB121D98F;
+			remoteInfo = Bugly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038A4BE1D54A3E34EA821EDC1901B34B /* Pods-ZYFOOMReportDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYFOOMReportDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C53323C8ED1AD6B2238CA1BE041D7C5 /* fishhook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fishhook.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39C1F806223B3DC78891D1ADA2C30B52 /* fishhook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-umbrella.h"; sourceTree = "<group>"; };
+		3D8372C2434C63D8ACB6EE6E1044EF14 /* Pods-ZYFOOMReportDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYFOOMReportDemo-umbrella.h"; sourceTree = "<group>"; };
+		42EEF56DBE4BDA8A7F2554E339B9FE09 /* fishhook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fishhook-Info.plist"; sourceTree = "<group>"; };
+		5B33111A00A41AEFD16EA313F39C8C47 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		5B42E94ECB812B176DE2A1DD300E1877 /* fishhook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fishhook-dummy.m"; sourceTree = "<group>"; };
+		6DF9A07C67EDDD827CF5B65ADBDEB5A6 /* Pods-ZYFOOMReportDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFOOMReportDemo.release.xcconfig"; sourceTree = "<group>"; };
+		70996015DD57F32E5540AC19186A2145 /* Pods-ZYFOOMReportDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFOOMReportDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7C682FEEA75E34C2BD49F8242FBAEDD4 /* Pods-ZYFOOMReportDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYFOOMReportDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B1E92499C18A5E63B5C8B521CFD8579 /* fishhook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fishhook.xcconfig; sourceTree = "<group>"; };
+		93215719CF6804447072853B5A6F1CA5 /* Bugly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bugly.xcconfig; sourceTree = "<group>"; };
+		96B545DA21228502B42D07744CD81086 /* fishhook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-prefix.pch"; sourceTree = "<group>"; };
+		991B5C602D72BF67C13CA3EB965EAC08 /* Pods-ZYFOOMReportDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYFOOMReportDemo-dummy.m"; sourceTree = "<group>"; };
+		9CA216629A7529B075F3AC826470B254 /* fishhook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fishhook.framework; path = fishhook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD459AE9BA5668D7E8C3A727EFACBD3A /* Pods_ZYFOOMReportDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYFOOMReportDemo.framework; path = "Pods-ZYFOOMReportDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E308D44298915E1F0DBBA8F516461C /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
+		E07B0317326CC7E5A8698EBE6477C4A6 /* Pods-ZYFOOMReportDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYFOOMReportDemo-Info.plist"; sourceTree = "<group>"; };
+		E7CC88EF3B7D0A70F2352F5DCC3ADFE0 /* Pods-ZYFOOMReportDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYFOOMReportDemo.modulemap"; sourceTree = "<group>"; };
+		ED33D52336391E83B6DD9EBAC4039E1D /* Pods-ZYFOOMReportDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFOOMReportDemo-frameworks.sh"; sourceTree = "<group>"; };
+		EF802D1AC2EB626BCD3FF0C871E2C224 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35FEBDA7305C12A2284AF43DFE335894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8EE78336A4286BD5DA56D2E429AD4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD62DD3C801A328AEADB1C4B3CCA3141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF18D70F995E250ADE946ABED218D067 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185B42705921627DAF52FD6D2BEDC4D3 /* Pods-ZYFOOMReportDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E7CC88EF3B7D0A70F2352F5DCC3ADFE0 /* Pods-ZYFOOMReportDemo.modulemap */,
+				038A4BE1D54A3E34EA821EDC1901B34B /* Pods-ZYFOOMReportDemo-acknowledgements.markdown */,
+				7C682FEEA75E34C2BD49F8242FBAEDD4 /* Pods-ZYFOOMReportDemo-acknowledgements.plist */,
+				991B5C602D72BF67C13CA3EB965EAC08 /* Pods-ZYFOOMReportDemo-dummy.m */,
+				ED33D52336391E83B6DD9EBAC4039E1D /* Pods-ZYFOOMReportDemo-frameworks.sh */,
+				E07B0317326CC7E5A8698EBE6477C4A6 /* Pods-ZYFOOMReportDemo-Info.plist */,
+				3D8372C2434C63D8ACB6EE6E1044EF14 /* Pods-ZYFOOMReportDemo-umbrella.h */,
+				70996015DD57F32E5540AC19186A2145 /* Pods-ZYFOOMReportDemo.debug.xcconfig */,
+				6DF9A07C67EDDD827CF5B65ADBDEB5A6 /* Pods-ZYFOOMReportDemo.release.xcconfig */,
+			);
+			name = "Pods-ZYFOOMReportDemo";
+			path = "Target Support Files/Pods-ZYFOOMReportDemo";
+			sourceTree = "<group>";
+		};
+		656DA59949EC13A183B7E73E78579E5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA7B89513ACF0A886844CB26EFDCDC29 /* Bugly */,
+				C5C65F530F856B3C9B90222DDF8A007C /* fishhook */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6ACEF2E9458DD5E4A1477EC000BBE70C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93215719CF6804447072853B5A6F1CA5 /* Bugly.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bugly";
+			sourceTree = "<group>";
+		};
+		AA7EAE5A4B8624EA4C84837DDB3B97AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C53323C8ED1AD6B2238CA1BE041D7C5 /* fishhook.modulemap */,
+				8B1E92499C18A5E63B5C8B521CFD8579 /* fishhook.xcconfig */,
+				5B42E94ECB812B176DE2A1DD300E1877 /* fishhook-dummy.m */,
+				42EEF56DBE4BDA8A7F2554E339B9FE09 /* fishhook-Info.plist */,
+				96B545DA21228502B42D07744CD81086 /* fishhook-prefix.pch */,
+				39C1F806223B3DC78891D1ADA2C30B52 /* fishhook-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/fishhook";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5C65F530F856B3C9B90222DDF8A007C /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				D9E308D44298915E1F0DBBA8F516461C /* fishhook.c */,
+				5B33111A00A41AEFD16EA313F39C8C47 /* fishhook.h */,
+				AA7EAE5A4B8624EA4C84837DDB3B97AE /* Support Files */,
+			);
+			name = fishhook;
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		C7ED32FD0108005C1763094E7A1E7105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF802D1AC2EB626BCD3FF0C871E2C224 /* Bugly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				656DA59949EC13A183B7E73E78579E5A /* Pods */,
+				F8D965E73F96B56F9E0C2B21688DFD8C /* Products */,
+				E9183D8B1699D9F49838D1083707F7B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA7B89513ACF0A886844CB26EFDCDC29 /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				C7ED32FD0108005C1763094E7A1E7105 /* Frameworks */,
+				6ACEF2E9458DD5E4A1477EC000BBE70C /* Support Files */,
+			);
+			name = Bugly;
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		E9183D8B1699D9F49838D1083707F7B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				185B42705921627DAF52FD6D2BEDC4D3 /* Pods-ZYFOOMReportDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8D965E73F96B56F9E0C2B21688DFD8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA216629A7529B075F3AC826470B254 /* fishhook.framework */,
+				CD459AE9BA5668D7E8C3A727EFACBD3A /* Pods_ZYFOOMReportDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17E7D321556F89B85B6ABC8EA02E5E37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523051572A9FB6D243E71966AB626D6E /* Pods-ZYFOOMReportDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED21DA4320DFD229CC1CB5EB514681 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F58BAD4146659D83B49C49B614D29 /* fishhook-umbrella.h in Headers */,
+				EE3C95F14528751BD1188B253E0DB6E2 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		294247C8086C2E8901215F84960094EA /* Pods-ZYFOOMReportDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5599579AC9D2076701D3843E58194BF0 /* Build configuration list for PBXNativeTarget "Pods-ZYFOOMReportDemo" */;
+			buildPhases = (
+				17E7D321556F89B85B6ABC8EA02E5E37 /* Headers */,
+				34154A761A20406447B0EA577184C333 /* Sources */,
+				35FEBDA7305C12A2284AF43DFE335894 /* Frameworks */,
+				841448E894F909ECE91E1101B1AD4197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641DDF73FF8137D322A1C74C1887A7CE /* PBXTargetDependency */,
+				9BFC457FB1BCF6363030917D5D370777 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYFOOMReportDemo";
+			productName = "Pods-ZYFOOMReportDemo";
+			productReference = CD459AE9BA5668D7E8C3A727EFACBD3A /* Pods_ZYFOOMReportDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58CAF5B0291DAB42086F0645150E1791 /* fishhook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B07776C492EDFCDF41C1CBA122AEE2B /* Build configuration list for PBXNativeTarget "fishhook" */;
+			buildPhases = (
+				F7ED21DA4320DFD229CC1CB5EB514681 /* Headers */,
+				F03CFBC8A655144B6312F2302772F750 /* Sources */,
+				AD62DD3C801A328AEADB1C4B3CCA3141 /* Frameworks */,
+				8E35C65CE1EFD238418ECB22088CF258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishhook;
+			productName = fishhook;
+			productReference = 9CA216629A7529B075F3AC826470B254 /* fishhook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F8D965E73F96B56F9E0C2B21688DFD8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A68CFD979D413A619DF631BB121D98F /* Bugly */,
+				58CAF5B0291DAB42086F0645150E1791 /* fishhook */,
+				294247C8086C2E8901215F84960094EA /* Pods-ZYFOOMReportDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841448E894F909ECE91E1101B1AD4197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E35C65CE1EFD238418ECB22088CF258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34154A761A20406447B0EA577184C333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0772315FC4EBE1720EB8EAE3821072 /* Pods-ZYFOOMReportDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03CFBC8A655144B6312F2302772F750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870DDF3965EB30DB37DE2C350E15788C /* fishhook-dummy.m in Sources */,
+				B9AEBFEC62BD74FD06529C1EF5C6FEFD /* fishhook.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641DDF73FF8137D322A1C74C1887A7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bugly;
+			target = 4A68CFD979D413A619DF631BB121D98F /* Bugly */;
+			targetProxy = 5BEFC08450B3167B8C62BB4F26CCD5BB /* PBXContainerItemProxy */;
+		};
+		9BFC457FB1BCF6363030917D5D370777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = fishhook;
+			target = 58CAF5B0291DAB42086F0645150E1791 /* fishhook */;
+			targetProxy = 505B0B2ADE03FFCC1C3368AE785F3C40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0438C3A8A5785A71B7CBE22CB82F629E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1E92499C18A5E63B5C8B521CFD8579 /* fishhook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fishhook/fishhook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/fishhook/fishhook.modulemap";
+				PRODUCT_MODULE_NAME = fishhook;
+				PRODUCT_NAME = fishhook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5171C80E0F5B1DEB068C32A481FF559A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70996015DD57F32E5540AC19186A2145 /* Pods-ZYFOOMReportDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYFOOMReportDemo/Pods-ZYFOOMReportDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYFOOMReportDemo/Pods-ZYFOOMReportDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78A6BA2539559730D3FDA36B5381CE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93215719CF6804447072853B5A6F1CA5 /* Bugly.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		883F734A3B039DF12CF38E4877CC0A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1E92499C18A5E63B5C8B521CFD8579 /* fishhook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fishhook/fishhook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/fishhook/fishhook.modulemap";
+				PRODUCT_MODULE_NAME = fishhook;
+				PRODUCT_NAME = fishhook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3F10504F5A4BB04832F2D311D804C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF9A07C67EDDD827CF5B65ADBDEB5A6 /* Pods-ZYFOOMReportDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYFOOMReportDemo/Pods-ZYFOOMReportDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYFOOMReportDemo/Pods-ZYFOOMReportDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAF5B6BFCE8F67205A8C462E729B423D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93215719CF6804447072853B5A6F1CA5 /* Bugly.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B07776C492EDFCDF41C1CBA122AEE2B /* Build configuration list for PBXNativeTarget "fishhook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0438C3A8A5785A71B7CBE22CB82F629E /* Debug */,
+				883F734A3B039DF12CF38E4877CC0A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5599579AC9D2076701D3843E58194BF0 /* Build configuration list for PBXNativeTarget "Pods-ZYFOOMReportDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5171C80E0F5B1DEB068C32A481FF559A /* Debug */,
+				F3F10504F5A4BB04832F2D311D804C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC7AA793D9397C15E010F8242EE1046 /* Build configuration list for PBXAggregateTarget "Bugly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A6BA2539559730D3FDA36B5381CE08 /* Debug */,
+				FAF5B6BFCE8F67205A8C462E729B423D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

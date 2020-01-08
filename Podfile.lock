@@ -1,0 +1,20 @@
+PODS:
+  - Bugly (2.5.2)
+  - fishhook (0.2)
+
+DEPENDENCIES:
+  - Bugly
+  - fishhook (= 0.2)
+
+SPEC REPOS:
+  trunk:
+    - Bugly
+    - fishhook
+
+SPEC CHECKSUMS:
+  Bugly: dbac48b55ad469a97cc4321045cd50df8f63d44f
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+
+PODFILE CHECKSUM: c046ebf084227080304133a688f4c69626223777
+
+COCOAPODS: 1.8.4
